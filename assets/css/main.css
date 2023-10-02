@@ -4165,6 +4165,8 @@ input, select, textarea {
 
 	iframe{
 		justify-content: center;
+		width: 640px;
+		height: 480px;
 		display: block;
 		margin: 0 auto;
 		margin-top: 50px;
