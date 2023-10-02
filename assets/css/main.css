@@ -23,7 +23,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
-	vertical-align: baseline;}
+	vertical-align: baseline;
+	}
 
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -1111,7 +1112,7 @@ input, select, textarea {
 
 			.row {
 				display: flex;
-				flex-wrap: wrap;
+				flex-wrap: nowrap;
 				box-sizing: border-box;
 				align-items: stretch;
 			}
@@ -4160,4 +4161,18 @@ input, select, textarea {
 			padding: 2em 1.5em 0.1em 1.5em ;
 		}
 
+	}
+
+	iframe{
+		justify-content: center;
+		display: block;
+		margin: 0 auto;
+		margin-top: 50px;
+		overflow-x: hidden;
+		margin-bottom: 100px;
+	}
+	div.video-header h2{
+		display: block;
+		text-align: center;
+		margin-top: 100px;
 	}
